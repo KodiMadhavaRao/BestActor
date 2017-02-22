@@ -1,0 +1,39 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="horizontal" android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#b4b6b1"
+    android:layout_margin="4dp">
+    <LinearLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content">
+        <ImageView
+            android:layout_width="100dp"
+            android:layout_height="100dp"
+            android:id="@+id/hero_image"
+            />
+    </LinearLayout>
+
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical">
+        <TextView
+            android:layout_width="156dp"
+            android:layout_height="wrap_content"
+            android:id="@+id/hero_name"
+            android:text="sample"
+            android:textSize="25sp"
+            android:fontFamily="cursive"
+            android:textColor="#123"
+            android:textStyle="bold"
+            android:textAlignment="center"/>
+        <RatingBar
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:id="@+id/hero_ratting"
+            style="?android:attr/ratingBarStyleSmall"/>
+    </LinearLayout>
+
+</LinearLayout>
